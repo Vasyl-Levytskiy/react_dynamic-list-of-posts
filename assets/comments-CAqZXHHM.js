@@ -1,0 +1,1 @@
+import{c as e}from"./index-CqVfgK7g.js";const s=t=>e.get(`/comments?postId=${t}`),n=(t,o)=>e.post("/comments",{postId:t,...o}),c=t=>e.delete(`/comments/${t}`);export{n as addComment,c as deleteComment,s as getCommentsByPost};
